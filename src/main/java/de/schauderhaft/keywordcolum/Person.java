@@ -6,7 +6,7 @@ import org.springframework.data.relational.core.mapping.Column;
 public record Person(
 		@Id
 		Long id,
-		@Column
+		@Column("desc")
 		String desc
 ) {
 }
